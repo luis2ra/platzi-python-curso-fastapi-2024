@@ -18,6 +18,12 @@ country_timezones = {
     "AR": "America/Argentina/Buenos_Aires",
     "BR": "America/Sao_Paulo",
     "PE": "America/Lima",
+    "VE": "America/Caracas",
+    "CL": "America/Santiago",
+    "EC": "America/Guayaquil",
+    "PY": "America/Asuncion",
+    "UY": "America/Montevideo",
+    "BO": "America/La_Paz",
 }
 
 
