@@ -36,7 +36,7 @@ db_customers: list[Customer] = []
 @app.post("/customers", response_model=Customer)
 async def create_customer(customer_data: CustomerCreate):
     customer = Customer.model_validate(customer_data.model_dump())
-    # Ausmiendo que hace base de datos
+    # Esto es temporal, deberia gestionar el id con la base de datos
     customer.id = len(db_customers)
     db_customers.append(customer)
     return customer
